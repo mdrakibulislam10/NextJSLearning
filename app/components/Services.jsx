@@ -9,7 +9,7 @@ const Services = ({ id, userId, title, body, content }) => {
             <h1 className="text-3xl">{title}</h1>
             <p>{content}</p>
             <Link href={`/blogs/${id}`}>
-                <button className="btn bg-yellow-600 p-3 rounded">Read More...</button>
+                <button className="btn bg-yellow-600 p-3 rounded">Read More....</button>
             </Link>
         </article>
     );
